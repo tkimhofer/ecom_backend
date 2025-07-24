@@ -1,4 +1,4 @@
-# Cloud-Ready E-commerce Backend with Data Warehouse Integration
+# Scalable Cloud E-commerce Backend with Data Warehouse Integration
 
 Backend API for e-commerce operations.
 
