@@ -1,6 +1,12 @@
-# E-commerce Backend
+# Cloud-Ready E-commerce Backend with Data Warehouse Integration
 
-Backend API for e-commerce operations, built to handle high concurrency and scalable workloads. Designed to receive API requests from frontend clients, process order data, and integrate seamlessly with operational databases and data warehouses.
+Backend API for e-commerce operations.
+
+Built with FastAPI and asynchronous Python, this backend handles requests efficiently while using minimal resources. It’s containerized with Docker for easy deployment and scaling in cloud environments.
+
+The system stores transactional data in an operational database designed for quick and reliable order processing. It also connects to data warehouse platforms like Google Cloud BigQuery to support reporting and business insights.
+
+The design focuses on simplicity and flexibility to meet core e-commerce backend needs.
 
 ## Key Features
 
@@ -19,21 +25,16 @@ Backend API for e-commerce operations, built to handle high concurrency and scal
 - Planned expansions for integration with fulfillment and other 3rd-party services
 
 
-Tech Stack & Architecture
+## Tech Stack & Architecture
 
-- FastAPI for a modern, fast asynchronous Python backend
-
+- FastAPI for asynchronous Python backend
 - SQLAlchemy for database ORM and transaction management
-
-- Docker for containerization and scalable deployment
-
+- Containerization and scalable deployment
 - OAuth2 / JWT for secure authentication and authorization
-
-- Operational DB (e.g., PostgreSQL) for raw order data storage and processing
-
-- Data Warehouse (e.g., Google Cloud BigQuery) for analytics and BI workflows
-
-- Designed with microservices readiness and API-first principles
+- Postgresql for raw order data storage and processing
+- Scheduled ETL processing for data warehouse integration (e.g. BigQuery / Google Cloud Platform)
+- Designed with microservices readiness / enabling components to be developed, deployed, and scaled independently
+- Utilizes OOP encapsulation to promote modularity and maintainability
 
 
 
