@@ -1,0 +1,9 @@
+commentjson
+fastapi
+uvicorn
+sqlalchemy
+passlib
+psycopg
+python-dotenv
+python-jose
+python-multipart

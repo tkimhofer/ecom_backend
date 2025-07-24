@@ -1,0 +1,166 @@
+{
+  "orders": [
+    {
+      "id": 1000001,
+      "customerId": 101,
+      "fulfillmentStatus": "ordered",
+      "paymentStatus": "paid",
+      "refundStatus": null,
+      "currentLineItemsQuantity": 4,
+      "currentTotalPrice": 35.0,
+      "currentTotalTax": 5.57,
+      "currentTotalWeight": 1.0,
+      "gclid": "Cj0KCQjwldKmBhCCARIsAP-0rfyGe6u3",
+      "landingPageUrl": "https://yourstore.com/checkout?utm_source=google&utm_medium=cpc&utm_campaign=summer_sale&utm_term=vegan+protein&utm_content=ad_banner1",
+      "lineItems": [
+        {
+          "id": 10000001,
+          "sku": "WERK-P001001-BATCH1",
+          "product": "P001",
+          "variant": "001",
+          "lineItemGroup": "starter_set",
+          "contractId": "",
+          "currentPrice": "12.00",
+          "currentTax": "2.28",
+          "currentTaxPerc": "19%",
+          "quantity": 1
+        },
+        {
+          "id": 10000002,
+          "sku": "WERK-P001002",
+          "product": "P001",
+          "variant": "002",
+          "lineItemGroup": "starter_set",
+          "contractId": "",
+          "currentPrice": "14.00",
+          "currentTax": "2.66",
+          "currentTaxPerc": "19%",
+          "quantity": 1
+        },
+        {
+          "id": 10000003,
+          "sku": "WERK-P002004",
+          "product": "P002",
+          "variant": "004",
+          "lineItemGroup": "starter_set",
+          "contractId": "",
+          "currentPrice": "9.00",
+          "currentTax": "0.63",
+          "currentTaxPerc": "7%",
+          "quantity": 1
+        },
+        {
+          "id": 10000004,
+          "sku": "WERK-P002999",
+          "product": "P002",
+          "variant": "999",
+          "lineItemGroup": "starter_set",
+          "contractId": "",
+          "currentPrice": "0.00",
+          "currentTax": "0.00",
+          "currentTaxPerc": "0%",
+          "quantity": 1
+        }
+      ],
+      "createdAt": "2025-07-01T10:00:00",
+      "cancelledAt": null,
+      "closedAt": "2025-07-02T10:00:00"
+    },
+    {
+      "id": 1000002,
+      "customerId": 102,
+      "fulfillmentStatus": "ordered",
+      "paymentStatus": "paid",
+      "refundStatus": null,
+      "currentLineItemsQuantity": 3,
+      "currentTotalPrice": 19.0,
+      "currentTotalTax": 1.33,
+      "currentTotalWeight": 1.0,
+      "gclid": "EIxAJYjLD7GvT9rM0GCyF9kl",
+      "landingPageUrl": "https://yourstore.com/products?utm_source=facebook&utm_medium=paid_social&utm_campaign=retargeting&utm_content=carousel2",
+      "lineItems": [
+        {
+          "id": 10000005,
+          "sku": "WERK-P002002-BA",
+          "product": "P002",
+          "variant": "002",
+          "lineItemGroup": "",
+          "contractId": "",
+          "currentPrice": "8.00",
+          "currentTax": "0.56",
+          "currentTaxPerc": "7%",
+          "quantity": 2
+        },
+        {
+          "id": 10000006,
+          "sku": "WERK-P002999",
+          "product": "P002",
+          "variant": "999",
+          "lineItemGroup": "",
+          "contractId": "",
+          "currentPrice": "3.00",
+          "currentTax": "0.21",
+          "currentTaxPerc": "7%",
+          "quantity": 1
+        }
+      ],
+      "createdAt": "2025-07-03T09:30:00",
+      "cancelledAt": null,
+      "closedAt": null
+    },
+    {
+      "id": 1000003,
+      "customerId": 103,
+      "fulfillmentStatus": "ordered",
+      "paymentStatus": "paid",
+      "refundStatus": null,
+      "currentLineItemsQuantity": 3,
+      "currentTotalPrice": 22.0,
+      "currentTotalTax": 2.00,
+      "currentTotalWeight": 1.0,
+      "gclid": "abc123456789def",
+      "landingPageUrl": "https://yourstore.com/landing?utm_source=newsletter&utm_medium=email&utm_campaign=bf2025&utm_content=cta_btn",
+      "lineItems": [
+        {
+          "id": 10000007,
+          "sku": "WERK-P001003-BF",
+          "product": "P001",
+          "variant": "003",
+          "lineItemGroup": "bogo_black_friday_2025",
+          "contractId": "",
+          "currentPrice": "15.00",
+          "currentTax": "2.85",
+          "currentTaxPerc": "19%",
+          "quantity": 1
+        },
+        {
+          "id": 10000008,
+          "sku": "WERK-P002005",
+          "product": "P002",
+          "variant": "005",
+          "lineItemGroup": "bogo_black_friday_2025",
+          "contractId": "",
+          "currentPrice": "7.00",
+          "currentTax": "0.49",
+          "currentTaxPerc": "7%",
+          "quantity": 1
+        },
+        {
+          "id": 10000009,
+          "sku": "WERK-P002999",
+          "product": "P002",
+          "variant": "999",
+          "lineItemGroup": "bogo_black_friday_2025",
+          "contractId": "",
+          "currentPrice": "0.00",
+          "currentTax": "0.00",
+          "currentTaxPerc": "0%",
+          "quantity": 1
+        }
+      ],
+      "createdAt": "2025-07-04T12:15:00",
+      "cancelledAt": "2025-07-04T14:00:00",
+      "closedAt": null
+    }
+  ]
+}
