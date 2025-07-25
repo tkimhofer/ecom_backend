@@ -29,4 +29,4 @@ jobs:
       - name: Tear down services
         if: always()
         run: |
-          docker-compose down
+          docker compose down
