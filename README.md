@@ -1,3 +1,5 @@
+[![Docker Compose CI](https://github.com/tkimhofer/ecom_backend/actions/workflows/main.yml/badge.svg)](https://github.com/tkimhofer/ecom_backend/actions/workflows/main.yml)
+
 # Scalable Cloud E-commerce Backend with Data Warehouse Integration
 
 Backend API for e-commerce operations.
