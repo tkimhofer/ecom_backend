@@ -1,8 +1,8 @@
 [![Docker Compose CI](https://github.com/tkimhofer/ecom_backend/actions/workflows/main.yml/badge.svg)](https://github.com/tkimhofer/ecom_backend/actions/workflows/main.yml)
 
-# Scalable Cloud E-commerce Backend with Data Warehouse Integration
+# Scalable Cloud E-commerce Backend and Data Warehouse Integration
 
-Backend API for e-commerce operations.
+Backend API for e-commerce operations, with Docker Compose for Local Development.
 
 Built with FastAPI and asynchronous Python, this backend handles requests efficiently while using minimal resources. It’s containerized with Docker for easy deployment and scaling in cloud environments.
 
